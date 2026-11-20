@@ -1,0 +1,19 @@
+public class Switchtest
+{
+public static void main(String args[])
+{
+char ch='A';
+switch(ch)
+{
+case 'A':
+System.out.println("the value is A");
+break;
+case 'B':
+System.out.println("the value is B");
+break;
+default:
+System.out.println("unknown value");
+break;
+}
+}
+}
